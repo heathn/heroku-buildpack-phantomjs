@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "module.exports.location = \"/app/node_modules/phantomjs/lib/phantom/bin/phantomjs\"" > $1/node_modules/phantomjs/lib/location.js
+exit 0
